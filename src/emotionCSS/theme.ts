@@ -7,7 +7,7 @@ export const renderMediaQuery = (maxWidth: number) => {
 };
 
 export const colors = {
-  black: "#2b2b2b",
+  black: "#393c41",
   white: "#FFFFFF",
   indigo: "#181F38",
   grayOne: "#F7F7F7",

@@ -1,15 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "images/logo.svg";
+import { css } from "@emotion/css";
+import styled from "@emotion/styled";
 
-function index() {
+function Index() {
   return (
-    <header>
-      <section className="container">
-        <nav></nav>
-      </section>
-    </header>
+    <Header>
+      <div className="container">
+        <nav>header</nav>
+      </div>
+    </Header>
   );
 }
 
-export default index;
+const Header = styled.header``;
+
+export default Index;
